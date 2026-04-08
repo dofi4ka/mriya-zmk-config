@@ -11,7 +11,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1500
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 10
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 15
 
 #define BASE 0
 #define MEDIA 1
@@ -23,11 +23,11 @@
 
 &mmv {
   time-to-max-speed-ms = <300>;
-  acceleration-exponent = <3>;
+  acceleration-exponent = <1>;
 };
 
 &msc {
-  time-to-max-speed-ms = <220>;
+  time-to-max-speed-ms = <300>;
   acceleration-exponent = <1>;
 };
 

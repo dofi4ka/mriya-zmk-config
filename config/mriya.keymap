@@ -23,14 +23,14 @@
  
 &lt {
   flavor = "balanced";
-  tapping-term-ms = <220>;
-  quick-tap-ms = <175>;
+  tapping-term-ms = <170>;
+  quick-tap-ms = <150>;
 };
 
 &mt {
   flavor = "balanced";
-  tapping-term-ms = <280>;
-  quick-tap-ms = <175>;
+  tapping-term-ms = <200>;
+  quick-tap-ms = <150>;
 };
 
 / {

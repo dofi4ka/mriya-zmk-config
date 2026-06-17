@@ -144,9 +144,9 @@
           label= "FUN";
           bindings = <
 /* start format */
-&none   &kp F12   &kp F7   &kp F8   &kp F8      &kp PSCRN                                  &to GAME   &none       &none       &none      &none      &none
-&none   &kp F11   &kp F4   &kp F5   &kp F6      &kp SLCK                                   &none      &kp RSHFT   &kp RCTRL   &kp RALT   &kp RGUI   &none
-&none   &kp F10   &kp F1   &kp F2   &kp F3      &kp PAUSE_BREAK                            &none      &none       &none       &none      &none      &none
+&none   &kp F12   &kp F7   &kp F8   &kp F8      &kp PSCRN                                  &to GAME   &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4
+&none   &kp F11   &kp F4   &kp F5   &kp F6      &kp SLCK                                   &none      &kp RSHFT      &kp RCTRL      &kp RALT       &kp RGUI       &bt BT_CLR
+&none   &kp F10   &kp F1   &kp F2   &kp F3      &kp PAUSE_BREAK                            &none      &none          &none          &none          &none          &bt BT_CLR_ALL
                                     &kp K_APP   &kp SPACE         &kp TAB          &none   &none      &none
 /* end format */
           >;
